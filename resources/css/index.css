@@ -21,6 +21,13 @@ a {
     color: #684688;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    width: 60%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #684688, rgba(0, 0, 0, 0));
+}
+
 header img {
     margin-right: 30px;
     display:inline-block;
@@ -103,6 +110,7 @@ a:hover {
 
 #meaning {
     margin: 0 auto;
+    margin-bottom: 35px;
     max-width: 920px;
     flex-wrap: wrap;
     padding: 20px 20px;
