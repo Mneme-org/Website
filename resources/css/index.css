@@ -53,6 +53,7 @@ a:hover {
 
 #main-title {
     display:inline-block;
+    vertical-align: middle;
 }
 
 .boxes {
