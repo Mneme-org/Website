@@ -22,8 +22,9 @@ a {
 }
 
 header img {
-    float: left;
     margin-right: 30px;
+    display:inline-block;
+    vertical-align: middle;
 }
 
 footer {
@@ -45,9 +46,13 @@ a:hover {
 }
 
 #title {
-    max-width: 630px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0px 20px;
+}
+
+#main-title {
+    display:inline-block;
 }
 
 .boxes {
