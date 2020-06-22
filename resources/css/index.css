@@ -1,0 +1,117 @@
+body {
+    background-color: whitesmoke;
+    min-height: 100%;
+    margin: 0px;
+    padding:0;
+    margin:0;
+    position:relative;
+}
+
+header {
+    display: block;
+    background-image: linear-gradient(211deg, #5b745a 0%, #63438d 100%);
+    color: whitesmoke;
+    border: 0px solid transparent;
+    display: relative;
+    padding-top: 70px;
+    overflow: auto;
+}
+
+a {
+    color: #684688;
+}
+
+header img {
+    float: left;
+    margin-right: 30px;
+}
+
+footer {
+    font-size: small;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    font-size: 14pt;
+    line-height: 40pt;
+    margin: 0 40px;
+}
+
+a:hover {
+    color: #A3629F;
+}
+
+#title {
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.boxes {
+    display: flex;
+    margin: 0 auto;
+    max-width: 920px;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.boxes article {
+    margin-top: 40px;
+    width: 32%;
+}
+
+.boxes article:first-child {
+    margin-left: 0px;
+}
+.boxes article:last-child {
+    margin-right: 0px;
+}
+
+.boxes article i {
+    float: left;
+    left: 0;
+    display: block;
+    margin: 0px auto 10px auto;
+}
+
+.boxes article h3 {
+    margin-top: 0;
+    font-size: 16pt;
+    color: #684688;
+    margin-bottom: .5em;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.boxes article p {
+    padding-left: 40px;
+    color: #888888;
+    font-size: 14pt;
+    margin: 0;
+}
+
+#meaning {
+    margin: 0 auto;
+    max-width: 920px;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+#meaning h3 {
+    color: #684688;
+}
+
+#meaning ol {
+    padding-left: 1em;
+    text-align: left;
+    color: #888888;
+    font-size: 14pt;
+    margin: 0;
+}
