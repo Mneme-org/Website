@@ -1,2 +1,2 @@
 # web
-The website (soon to be) hosted on mneme.xyz
+The website (soon to be) hosted on https://mneme.xyz
