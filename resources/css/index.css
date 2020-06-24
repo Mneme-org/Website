@@ -131,3 +131,31 @@ a:hover {
     font-size: 14pt;
     margin: 0;
 }
+
+
+@media screen and (max-width: 680px) {
+    .boxes {
+        display: block;
+        padding: 0;
+    }
+    .boxes article {
+        width: 100%;
+    }
+
+    header img {
+        display: block;
+        float: none;
+        margin: 0px auto;
+    }
+
+    main {
+        padding: 20px;
+        margin: 0;
+        width: calc(100% - 40px);
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 0px 10px;
+    }
+}
